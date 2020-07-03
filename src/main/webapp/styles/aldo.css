@@ -1,0 +1,19 @@
+html, body {
+    font-family: Avenir;
+    background-color: #fff
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#top-nav {
+    padding: 0px 5px;
+}
+
+#logo {
+    padding: 0px 5px 0px 13px;
+    color: #06f;
+}
