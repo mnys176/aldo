@@ -9,34 +9,43 @@
     <link rel="stylesheet" type="text/css" href="styles/aldo.css">
   </head>
   <body>
-    <div class="container-fluid">
+    <div id="header-container" class="container-fluid">
       <header>
-        <span id="logo" class="display-3">Aldo</span>
+        <span id="logo" class="display-3">ALDO</span>
         <span id="slogan" class="small font-italic">Always Doing.</span>
-        <nav id="top-nav" class="navbar navbar-expand-sm border border-left-0 border-right-0">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 3</a>
-            </li>
-          </ul>
-        </nav>
+        <div id="top-nav-container" class=" border border-left-0 border-right-0 clearfix">
+          <span class="float-left">
+            <nav id="top-nav" class="navbar navbar-expand-sm">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Statistics</a>
+                </li>
+              </ul>
+            </nav>
+          </span>
+          <span id="logout" class="float-right">
+            <a class="nav-link" href="#">Logout</a>
+          </span>
+        </div>
       </header>
-    <div>
-    <div class="container">
+    </div>
+    <br>
+    <div id="content-container" class="container">
       <div class="row">
-        <nav id="project-tree"></nav>
-        <main id="content"></main>
-        <section id="user-space">
-          <div id="user-login"></div>
-          <aside id="user-links"></aside>
+        <nav id="project-tree" class="col-md-2">Project Tree</nav>
+        <main id="content" class="col-md-8">Content</main>
+        <section id="user-space" class="col-md-2">User Space
+          <div id="user-login">Login</div>
+          <aside id="user-links">Links</aside>
         </section>
       </div>
+      <br>
       <footer></footer>
     </div>
   </body>
