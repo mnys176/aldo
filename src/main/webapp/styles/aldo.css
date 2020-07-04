@@ -30,37 +30,3 @@ footer {
 #slogan {
     font-family: Verdana;
 }
-
-#project-tree {
-    background-color: blue;
-    text-align: center;
-    height: 600px;
-}
-
-#content {
-    background-color: green;
-    text-align: center;
-    height: 600px;
-}
-
-#user-space {
-    background-color: red;
-    text-align: center;
-    height: 600px;
-}
-
-#user-login {
-    background-color: yellow;
-    text-align: center;
-    height: 200px;
-}
-
-#user-links {
-    background-color: orange;
-    text-align: center;
-    height: 200px;
-}
-
-#footer-container {
-    background-color: purple;
-}
