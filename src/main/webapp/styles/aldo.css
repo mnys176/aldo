@@ -1,0 +1,31 @@
+html, body {
+    font-family: Avenir;
+    background-color: #fff
+}
+
+header {
+    margin: auto;
+    margin-top: 10px;
+}
+
+footer {
+    margin: auto;
+}
+
+#header-container, #content-container, #footer-container {
+    max-width: 1200px;
+}
+
+#top-nav {
+    padding: 0px 5px;
+}
+
+#logo {
+    padding: 0px 5px 0px 13px;
+    color: #06f;
+    font-family: AndaleMono, Verdana;
+}
+
+#slogan {
+    font-family: Verdana;
+}
