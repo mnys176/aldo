@@ -1,5 +1,9 @@
 const express = require('express');
+const path = require('path');
+
 const aldo = express();
+
+aldo.use(express.static(path.join(__dirname, 'public')));
 
 aldo.get('/', function(req, res) {
     res.send('I\'m listening...');

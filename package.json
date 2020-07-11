@@ -2,8 +2,7 @@
     "name": "aldo",
     "version": "0.0.1",
     "description": "A project portfolio for its creator.",
-    "scripts":
-    {
+    "scripts": {
         "start": "nodemon src/main/aldo/aldo.js"
     },
     "author": "Mike Nystoriak",
