@@ -6,7 +6,7 @@ const aldo = express();
 aldo.use(express.static(path.join(__dirname, 'public')));
 
 aldo.get('/', function(req, res) {
-    res.send('I\'m listening...');
+    res.sendFile(__dirname + '/public/aldo.html');
 });
 
 aldo.listen(8080, (err) => {
