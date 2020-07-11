@@ -9,6 +9,6 @@ node {
 
 npm_install.args = ['nodemon', 'express']
 
-task npmStart(type: NpmTask) {
+task runNodeJS(type: NpmTask) {
     args = ['start']
 }
