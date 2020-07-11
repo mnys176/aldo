@@ -2,6 +2,10 @@
     "name": "aldo",
     "version": "0.0.1",
     "description": "A project portfolio for its creator.",
+    "scripts":
+    {
+        "start": "nodemon app.js"
+    },
     "author": "Mike Nystoriak",
     "license": "ISC",
     "dependencies": {
