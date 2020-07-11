@@ -4,7 +4,7 @@
     "description": "A project portfolio for its creator.",
     "scripts":
     {
-        "start": "nodemon src/main/aldo/scripts/aldo.js"
+        "start": "nodemon src/main/aldo/aldo.js"
     },
     "author": "Mike Nystoriak",
     "license": "ISC",
