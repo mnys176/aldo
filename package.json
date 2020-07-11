@@ -1,0 +1,11 @@
+{
+    "name": "aldo",
+    "version": "0.0.1",
+    "description": "A project portfolio for its creator.",
+    "author": "Mike Nystoriak",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.4"
+    }
+}

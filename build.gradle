@@ -6,3 +6,9 @@ node {
     download true
     version '14.5.0'
 }
+
+npm_install.args = ['nodemon', 'express']
+
+task npmStart(type: NpmTask) {
+    args = ['start']
+}
