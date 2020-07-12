@@ -5,7 +5,7 @@ const aldo = express();
 
 aldo.use(express.static(path.join(__dirname, 'public')));
 
-aldo.get('/', function(req, res) {
+aldo.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/aldo.html');
 });
 
