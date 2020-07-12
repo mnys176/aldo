@@ -7,8 +7,10 @@ node {
     version '14.5.0'
 }
 
-npm_install.args = ['nodemon', 'express']
+npmInstall.args = ['nodemon', 'express']
 
-task runNodeJS(type: NpmTask) {
+task nodeRun(type: NpmTask) {
+    description 'Runs NodeJS server instance.'
+    dependsOn npmInstall
     args = ['start']
 }
