@@ -1,21 +1,3 @@
-html, body {
-    font-family: Avenir;
-    background-color: #fff
-}
-header {
-    margin-top: 10px;
-}
-header, footer {
-    margin: auto;
-}
-hr {
-    margin: 0px;
-}
-
-#header-container, #content-container, #footer-container {
-    max-width: 1200px;
-}
-
 #logo {
     padding: 0px 5px;
     color: #007bff;
@@ -24,7 +6,6 @@ hr {
 #slogan {
     font-family: Verdana;
 }
-
 #top-nav {
     padding: 0px;
 }

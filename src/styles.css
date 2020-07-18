@@ -1,0 +1,13 @@
+html, body {
+    font-family: Avenir;
+    background-color: #fff
+}
+header {
+    margin-top: 10px;
+}
+header, footer {
+    margin: auto;
+}
+hr {
+    margin: 0px;
+}
